@@ -1,0 +1,16 @@
+/* ==========================================================================
+   FONTS / SETTINGS
+   ========================================================================== */
+/// Font family
+:root {
+    --font-primary:  "Merriweather", serif;
+    --font-secondary: 'Poppins', monospace;
+
+    --font-size-content: #{typo(14px, 18px)};
+
+    /// Grosseur des textes
+    --font-size-h1: #{typo(34px, 68px)};
+    --font-size-h2: #{typo(20px, 40px)};
+    --font-size-h3: #{typo(18px, 32px)};
+    --font-size-h4: #{typo(16px, 24px)};
+}

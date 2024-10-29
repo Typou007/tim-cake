@@ -1,0 +1,42 @@
+.information-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 2% 0;
+}
+.sidebar {
+    text-align: right;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    div {
+        margin: 2% 0;
+    }
+    h3 {
+        font-family: var(--font-primary);
+        font-size: var(--font-size-h3);
+        color: var(--color-secondary);
+    }
+    ul {
+        margin: 1% 0;
+    }
+    p {
+        margin: 1% 0;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+}
+.info-text {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    P {
+        font-size: var(--font-size-content);
+        font-family: var(--font-secondary);
+        margin: 2% 4%;
+    }
+}
+.infor-text::before {
+    content: ' ';
+    height: 100%;
+    width: 1px;
+}

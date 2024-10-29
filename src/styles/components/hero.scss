@@ -1,0 +1,41 @@
+.hero {
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+    top: 0;
+}
+
+.hero_media {
+    img {
+        object-fit: cover;
+        @include cover();
+        z-index: -2;
+    }
+}
+.recette {
+    height: 40vh;
+}
+
+.hero_content {
+    color: var(--color-white);
+    height: 100%;
+
+    .contenu {
+        position: absolute;
+        max-width: 785px;
+        left: 9%;
+        top: 18%;
+        gap: 30px;
+    }
+    h1 {
+        color: var(--color-primary);
+        font-family: var(--font-primary);
+        font-size: var(--font-size-h1);
+        margin-bottom: 60px;
+    }
+    p {
+        margin-bottom: 70px;
+        max-width: 540px;
+        font-size: var(--font-p);
+    }
+}
